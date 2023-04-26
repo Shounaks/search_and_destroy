@@ -20,10 +20,13 @@ import java.util.function.Predicate;
  * @see ValidatorUtils#error(Long, String)
  */
 public class NameValidator implements Validator<Policy> {
+    public static final NameValidator INSTANCE = new NameValidator();
     Predicate<Policy> isNameMinLength = x -> x.getTitle().length() > 30;
-
     //TODO: It is not required to store this data but just to conform with standard
     ErrorEnum errorData = ErrorEnum.NAME_INVALID;
+
+    private NameValidator() {
+    }
 
     /**
      * @param policy an object of Policy

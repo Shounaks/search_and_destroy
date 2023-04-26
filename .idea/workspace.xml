@@ -4,36 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c36b217-673d-469f-a961-8e728ccb969e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shounak/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shounak/controller/ControllerAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shounak/controller/PolicyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shounak/entity/Policy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shounak/exception/SNDException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shounak/repository/PolicyRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shounak/service/PolicyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shounak/validation/MainExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shounak/validation/NameValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shounak/validation/PriceValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shounak/validationframework/ErrorEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shounak/validationframework/Executor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shounak/validationframework/SNDResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shounak/validationframework/ValidationError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shounak/validationframework/ValidationResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shounak/validationframework/Validator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shounak/validationframework/ValidatorUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="7c36b217-673d-469f-a961-8e728ccb969e" name="Changes" comment="Initial Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shounak/validation/MainExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shounak/validation/MainExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shounak/validation/NameValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shounak/validation/NameValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shounak/validation/PriceValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shounak/validation/PriceValidator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +40,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "master",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -105,7 +81,19 @@
       <option name="presentableId" value="Default" />
       <updated>1682397230417</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1682479808217</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682479808217</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -122,12 +110,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/shounak/validation/NameValidator.java</url>
-          <line>33</line>
+          <line>36</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/shounak/validation/PriceValidator.java</url>
-          <line>16</line>
+          <line>21</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>

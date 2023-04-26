@@ -10,9 +10,9 @@ import java.util.List;
 public class MainExecutor implements Executor<Policy, SNDResponse> {
     List<Validator<Policy>> validators = List.of(
             //ADD CUSTOM Validators here, and nested validators are allowed
-            //so as to create cascading logical groups with serial error checking.
-            new PriceValidator(),
-            new NameValidator()
+            //to create cascading logical groups with serial error checking.
+            PriceValidator.INSTANCE,
+            NameValidator.INSTANCE
     );
 
     @Override
